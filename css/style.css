@@ -1,0 +1,167 @@
+*{
+    font-family: 'Poppins', sans-serif;   
+    /* box-shadow: none! important; */
+ margin: 0;
+ padding: 0;
+}
+
+
+
+.space{
+    height: 2rem;
+}
+
+
+
+.nav-col{
+    margin: 0;
+background-color: black;
+
+}
+
+.nop{
+    margin: 0;
+}
+
+    .content{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: #fff;
+    }
+/* nav a:hover{} */
+
+.nav-wrapper ul li {
+    position: relative;
+}
+.nav-wrapper  ul li ::after{
+    content:'';
+    height: 10px;
+    width: 0;
+   transition
+   : 0.5s;
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+
+}
+
+.nav-wrapper ul li :hover::after{
+    width: 100%;
+    border-radius: 30px;
+    background: red;
+}
+
+button{
+
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid red;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.jam-card{
+
+}
+button:hover span{
+    width: 100%;
+}
+span{
+    background: red;
+    height: 100%;
+    width:0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+.nav-wrapper{
+
+}
+
+.cards {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+ 
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .cards button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .cards button:hover {
+    opacity: 0.7;
+  }
+/*
+.banner{
+    height: 100vh;
+    width: 100%;
+    /* To add an overlay, you add a linear gradient and also an image in the same line */
+    /* background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('img/bannermain.jpg'); */
+
+/* }  */
+*/
+.page-footer a:hover{
+ background: black;
+ border-spacing: 5px;
+ padding: 5px;
+ border: 1px solid white;
+ border-radius: 20px;
+}
+
+.brand-logo{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sty{
+ 
+}
+.page-footer{
+    padding-top: 5rem;
+    background-color: black;
+}
+
+
+.cont{
+    
+}
+
+.cards:hover{
+    transform: translateY(-50px);
+    transition: 0.9s;
+}
+
